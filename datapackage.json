@@ -1,0 +1,109 @@
+{
+  "name": "climate-change",
+  "title": "Climate Change Impacts",
+  "descriptions": "Survey done by The Data Distribution Centre. The data observes climate change impacts",
+  "licenses" : [
+    {
+      "type": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "climat change", "ddc", "climate change impact", "IPCC"],
+  "version": "0.1.0",
+  "last_updated": "2016-06-13",
+  "sources": [
+    {
+      "name": "DDC",
+      "web": "http://sedac.ipcc-data.org/ddc/observed/index.html"
+    }
+  ],
+  "resources": [
+    { 
+      "path": "data/climate-change.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year_Pub",
+            "type": "date"
+          },
+          {
+            "name": "Ref",
+            "type": "string"
+          },
+          {
+            "name": "Ch_Reg",
+            "type": "string"
+          },
+          {
+            "name": "Lat",
+            "type": "number"
+          },
+          {
+            "name": "Long",
+            "type": "number"
+          },
+          {
+            "name": "Yr_start",
+            "type": "date"
+          },
+          {
+            "name": "Yr_end",
+            "type": "date"
+          },
+          {
+            "name": "Duration",
+            "type": "number"
+          },
+          {
+            "name": "Category",
+            "type": "string"
+          },
+          {
+            "name": "Code",
+            "type": "string"
+          },
+          {
+            "name": "SGNFCNT",
+            "type": "string"
+          },
+          {
+            "name": "Change",
+            "type": "string"
+          },
+          {
+            "name": "Air_T",
+            "type": "string"
+          },
+          {
+            "name": "SST",
+            "type": "string"
+          },
+          {
+            "name": "Prec",
+            "type": "string"
+          },
+          {
+            "name": "Code",
+            "type": "string"
+          },
+          {
+            "name": "AO",
+            "type": "string"
+          },
+          {
+            "name": "NAO",
+            "type": "string"
+          },
+          {
+            "name": "ENSO",
+            "type": "string"
+          },
+          {
+            "name": "Land",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
