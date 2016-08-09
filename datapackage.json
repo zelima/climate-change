@@ -24,82 +24,97 @@
         "fields": [
           {
             "name": "Year_Pub",
+            "description": "Year of publication",
             "type": "date"
           },
           {
             "name": "Ref",
+            "description": "Reference in short form",
             "type": "string"
           },
           {
             "name": "Ch_Reg",
+            "description": "Chapter Regions",
             "type": "string"
           },
           {
             "name": "Lat",
+            "description": "Latitude",
             "type": "number"
           },
           {
             "name": "Long",
+            "description": "Longitude",
             "type": "number"
           },
           {
             "name": "Yr_start",
+            "description": "Year started",
             "type": "date"
           },
           {
             "name": "Yr_end",
+            "description": "Year ended",
             "type": "date"
           },
           {
             "name": "Duration",
+            "description": "Duration of the study (year)",
             "type": "number"
           },
           {
             "name": "Category",
+            "description": "Category of Study",
             "type": "string"
           },
           {
             "name": "Code",
+            "description": "Code of the Category of Study",
             "type": "string"
           },
           {
             "name": "SGNFCNT",
+            "description": "significance",
             "type": "string"
           },
           {
             "name": "Change",
+            "description": "Direction of Change",
             "type": "string"
           },
           {
             "name": "Air_T",
+            "description": "Air Temperature ",
             "type": "string"
           },
           {
             "name": "SST",
+            "description": "Sea Surface Temperature",
             "type": "string"
           },
           {
             "name": "Prec",
-            "type": "string"
-          },
-          {
-            "name": "Code",
+            "description": "Precipitation",
             "type": "string"
           },
           {
             "name": "AO",
+            "description": "Arctic Oscillation",
             "type": "string"
           },
           {
             "name": "NAO",
+            "description": "North Atlantic Oscillation",
             "type": "string"
           },
           {
             "name": "ENSO",
+            "description": "El Nino Souther Oscillation",
             "type": "string"
           },
           {
             "name": "Land",
+            "description": "Land Use",
             "type": "string"
           }
         ]
