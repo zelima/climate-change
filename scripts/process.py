@@ -3,7 +3,6 @@
 
 import os
 import urllib
-import datetime
 import csv
 import xlrd
 
@@ -92,7 +91,7 @@ def retrieve(source):
     urllib.urlretrieve(source,'archive/external-data.xls')
 
 def get_data():
-    '''Gets the data from xls file and returns a ictionery of countries lists of it's data by year
+    '''Gets the data from xls file and yields lists of it's data row by row
     
     '''
     countries = {}
@@ -113,7 +112,7 @@ def get_data():
         yield row
 
 def process(data):
-    '''takes dictionery of data as input and writes data into csv file
+    '''takes generator funtion as input and writes data into csv file
     
     '''
     fo = open('data/climate-change.csv', 'w')
